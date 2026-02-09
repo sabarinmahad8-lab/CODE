@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Course Enrollment System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎓 Online Course Enrollment System</h1>
+    <p>Enroll students into online courses easily</p>
+</header>
+
+<main class="container">
+
+    <!-- CARDS -->
+    <section class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=60">
+            <h3>Online Learning</h3>
+            <p>Access quality education anywhere.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60">
+            <h3>Multiple Courses</h3>
+            <p>Enroll in different professional courses.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=60">
+            <h3>Track Enrollment</h3>
+            <p>View enrolled students instantly.</p>
+        </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="form">
+        <h2>Enroll Student</h2>
+        <p class="message" id="message"></p>
+
+        <input type="text" id="studentName" placeholder="Student Name (min 3 letters)">
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>Web Development</option>
+            <option>Graphic Design</option>
+            <option>Data Analysis</option>
+            <option>Digital Marketing</option>
+        </select>
+
+        <button id="enrollBtn">Enroll Now</button>
+    </section>
+
+    <!-- RESULT -->
+    <section class="result">
+        <h2>Enrolled Students</h2>
+        <ul id="enrollList"></ul>
+        <p class="count">Total Enrolled: <span id="total">0</span></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Online Course Enrollment System | Student Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
