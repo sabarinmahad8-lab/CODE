@@ -76,7 +76,7 @@ header {
     box-shadow: 0 14px 30px rgba(0,0,0,0.12);
     max-width: 420px;
     width: 100%;
-    border-top: 6px solid #3949ab;
+    border-top: 6px solid #3949ab  ;
 }
 
 .form h2 {
